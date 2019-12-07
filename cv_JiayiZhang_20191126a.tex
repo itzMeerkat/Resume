@@ -1,0 +1,194 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cies Resume/CV
+% LaTeX Template
+% Version 1.1 (20/7/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Cies Breijs (cies@kde.nl)
+% https://github.com/cies/resume with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
+
+\include{structure} % Include structure.tex which contains packages and document layout definitions
+
+\hyphenation{Some-long-word} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+\begin{document} 
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\maintitle{JiaYi Zhang}{May 25, 1998}  % Your name and date of birth or subtitle
+
+\noindent\href{mailto:itzmeerkat@gmail.com}{itzmeerkat@gmail.com}\bull % Your email address
+\textsmaller{+}1 669-294-6252\\ 
+
+625 Cantrill DR \bull  Davis\bull CA  \bull United States\bull 95618 % Your address
+
+\spacedhrule{0.9em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Education} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{University of California, Davis | GPA 3.504  }
+{\textsc{Davis, CA United States}} {
+	
+	\headedsubsection % Job title entry for the current employer
+	{Bachelor degree: Major in Computer Science}
+	{2018 -- 2020}
+	{\bodytext{
+		Reinforcment learning for AI; Algorithms in computer vision; Machine learning from scratch\\
+		Learned how to lead a team in project and how to set up procedure to approach the solution
+	}
+	}
+
+}
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{De Anza college | GPA 3.70}
+{\textsc{Cupertino, CA United States}} {
+	
+	\headedsubsection % Job title entry for the current employer
+	{Associate degree: Major in Computer Science}
+	{2016 -- 2018}
+	{\bodytext{Assembly language, Java, C/C++\\Calculus and discrete math}
+	}
+	
+}
+
+%------------------------------------------------
+
+%------------------------------------------------
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Skills} % Top level section
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Technical specialties:}
+{
+	Proficient in Python/C++/Go/Matlab; Experienced in algorithm design; Farmiliar with the underlying machanism of machine learning, computer vision and artificial intellegence.\\
+	Understand the priciple of operating system.\\
+	Total coding experience: around 8000 lines of codes.
+} 
+ 
+%------------------------------------------------
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Leadership 2019-Present:}
+{Leader of Technical Service Team in club iDEX.\\
+Leader of a machine learning group project of 10 members, with various culture background.}
+
+
+\spacedhrule{1.6em}{-0.4em}
+\roottitle{Experience}
+
+\headedsection
+{\href{https://github.com/itzMeerkat/UCDavis-ECS171-2019Fall-Project}{Machine Learning}  }
+{\textsc{Developer, Leader | Group project}} {
+	\headedsubsection
+	{\acr{Bay Area Bike Share number of trips prediction}}
+	{Nov 2016 -- Oct 2019}
+	{\bodytext{Predicting the number of trips per day in San Francisco, using LSTM model then evaluate it by comparing with FFNN and OLS.}}
+}
+
+\headedsection
+{\href{https://github.com/itzMeerkat/PrintableNote}{Computer Vision}}
+{\textsc{Developer, Leader | Individual project}} {
+
+	\headedsubsection
+	{\acr{Document Image Background Removal and Text Color Enhancement}}
+	{May 2015 -- Apr 2016}
+	{\bodytext{Take an image of a paper document as input, the program detects and removes the background even the lighting condition various across the image. Then enhance the color of foreground texts by unifying their color.}}
+}
+
+\headedsection
+{\href{https://github.com/itzMeerkat/vue-ProportionalTimeline}{Web Application}}
+{\textsc{Designer, Developer | Individual project}} {
+	
+	\headedsubsection % Job title entry for the current employer
+	{\acr{Proportional Timeline}}
+	{May 2018 -- Jun 2018}
+	{\bodytext{A timeline web application that has a vertical axis representing the time and events will be placed based on its timestamp.}}
+}
+
+\headedsection
+{\href{https://github.com/itzMeerkat/FHDAClassViewer}{Web Application}}
+{\textsc{Designer, Developer | Individual project}} {
+	
+	\headedsubsection % Job title entry for the current employer
+	{\acr{Course Search and View Website for De Anza College}}
+	{Feb 2017 -- May 2017}
+	{\bodytext{A better version of official class viewing website. All the data were fetched through a web crawler, from the student control panel. Since it requires access of student control panel with a valid account, I would like to keep the code private unless needed.}}
+}
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Achievement} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{Algorithm Design Competition}
+{\textsc{Beijing, China}} {
+	
+	\headedsubsection % Job title entry for the current employer
+	{National Olympiad in Informatics}
+	{2015 | Second Prize}
+	{\bodytext{National Olympiad in Informatics in Provinces (NOIP) is an algorithm design competition. It requires the participants to have the skill of abstracting a problem from a realistic scene and the ability to solve the problem with the algorithm knowledge and data structure techniques.}}
+	
+}
+
+%------------------------------------------------
+
+%\spacedhrule{-0.2em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+
+
+%----------------------------------------------------------------------------------------
+
+\roottitle{Interests} % Top level section
+
+\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
+{Non-exhaustive and in alphabetical order:}
+{Art, Chess, Historical fencing, Music and Travel.      }
+ 
+%----------------------------------------------------------------------------------------
+
+\end{document}
